@@ -1,0 +1,42 @@
+{
+  "repository": "economist-zh-archive",
+  "issues": [
+    {
+      "issue_date": "2026-07-31",
+      "translation_model": "Gemini 3.6 Flash",
+      "full_articles": 71,
+      "digest_articles": 71
+    },
+    {
+      "issue_date": "2026-07-24",
+      "translation_model": "Gemini 3.6 Flash",
+      "full_articles": 74,
+      "digest_articles": 74
+    },
+    {
+      "issue_date": "2026-07-17",
+      "translation_model": "Gemini 3.6 Flash",
+      "full_articles": 69,
+      "digest_articles": 69
+    },
+    {
+      "issue_date": "2026-07-10",
+      "translation_model": "Gemini 3.6 Flash",
+      "full_articles": 74,
+      "digest_articles": 74
+    },
+    {
+      "issue_date": "2026-07-03",
+      "translation_model": "Gemini 3.6 Flash",
+      "full_articles": 72,
+      "digest_articles": 72
+    },
+    {
+      "issue_date": "2026-06-26",
+      "translation_model": "Gemini 3.6 Flash",
+      "full_articles": 73,
+      "digest_articles": 73
+    }
+  ],
+  "updated_at": "2026-08-06"
+}
