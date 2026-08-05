@@ -83,6 +83,10 @@ def update_index(metadata: dict) -> None:
 
 按期跟进《经济学人》中文 AI 译文。每一期同时提供完整版和简版，并统一输出 Markdown、EPUB、PDF 三种格式。
 
+**在线阅读：[economist-zh-archive.pages.dev](https://economist-zh-archive.pages.dev)**
+
+静态阅读站直接读取仓库内的 Markdown 构建，提供单期页面、沉浸式长文阅读、目录定位、字号与主题切换，并自动生成 canonical、Open Graph、JSON-LD、站点地图和 RSS。
+
 ## 内容版本
 
 - **完整版**：按原刊顺序收录每篇文章的核心提炼和中文正文。
@@ -120,6 +124,7 @@ python3 scripts/publish_issue.py \\
 ```
 
 加上 `--git-sync` 后，会提交本期文件并推送当前仓库的 `main` 分支。
+GitHub Actions 会在 `main` 更新后自动构建并部署 Cloudflare Pages。
 
 ## 说明
 

@@ -1,0 +1,26 @@
+{
+  "name": "economist-zh-archive",
+  "version": "2.2.0",
+  "private": true,
+  "type": "module",
+  "description": "按期归档的《经济学人》AI 中文译刊静态阅读站",
+  "scripts": {
+    "build": "node site/build.mjs",
+    "check": "node --check site/build.mjs && node --check site/lib/content.mjs && node --check site/lib/seo.mjs && node --check site/lib/templates.mjs",
+    "verify": "npm run check && npm run build && node site/validate.mjs",
+    "deploy": "npm run verify && wrangler pages deploy dist --project-name economist-zh-archive --branch main --commit-message \"Deploy economist archive static site\""
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.119.0"
+  },
+  "overrides": {
+    "undici": "^7.29.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

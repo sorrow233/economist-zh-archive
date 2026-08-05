@@ -1,0 +1,41 @@
+name: 自动部署静态阅读站
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-pages-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 构建并检查静态站
+        run: npm run verify
+        env:
+          SITE_URL: https://economist-zh-archive.pages.dev
+
+      - name: 部署到 Cloudflare Pages
+        run: npx wrangler pages deploy dist --project-name economist-zh-archive --branch main --commit-hash "${{ github.sha }}" --commit-message "Deploy ${{ github.sha }}"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
