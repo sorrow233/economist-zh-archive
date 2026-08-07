@@ -1,0 +1,33 @@
+{
+  "issue_date": "2026-08-07",
+  "translation_model": "DeepSeek V4 Flash (NVIDIA NIM) + Gemini 3.6 Flash",
+  "language": "zh-CN",
+  "full_articles": 69,
+  "digest_articles": 69,
+  "files": {
+    "digest.epub": {
+      "bytes": 76124,
+      "sha256": "985a4724b9806801f078dc6cd355fc80fc0299d719cd52335e28d08813911d4f"
+    },
+    "digest.md": {
+      "bytes": 69659,
+      "sha256": "b227adee5ef054cb69a22dc016c2d4839fad2dec4fc877e4813a02f4dd701795"
+    },
+    "digest.pdf": {
+      "bytes": 813407,
+      "sha256": "b6a7db63587fbc0eb6fc6cb7b91802a3f60297d210f3fc8b9547bdf0d91a02b2"
+    },
+    "full.epub": {
+      "bytes": 449511,
+      "sha256": "5773d1866269cf5555f6cbc97adba66dfd50c8725623431fb4710086fc7fa2ec"
+    },
+    "full.md": {
+      "bytes": 426339,
+      "sha256": "6b26eb6c31efdf74150d445f427c79b3b07e148821f28bb37b343e3807448368"
+    },
+    "full.pdf": {
+      "bytes": 1649103,
+      "sha256": "e3e5b4e9489dc6979f1be38a306b5550222f142d8a30e30556cb3186c1b445b5"
+    }
+  }
+}
