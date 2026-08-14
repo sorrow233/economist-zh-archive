@@ -1,0 +1,33 @@
+{
+  "issue_date": "2026-08-14",
+  "translation_model": "Gemini 3.6 Flash",
+  "language": "zh-CN",
+  "full_articles": 74,
+  "digest_articles": 74,
+  "files": {
+    "digest.epub": {
+      "bytes": 83140,
+      "sha256": "6306aa212baaa8e203da083343f018c7818ac3f91af5481c2bb5796ab185c048"
+    },
+    "digest.md": {
+      "bytes": 76341,
+      "sha256": "45752df7738b29979669d2e7c850ad3d5c1de57ceb51a5c43ceb2a64c83e622f"
+    },
+    "digest.pdf": {
+      "bytes": 845305,
+      "sha256": "2294b2b79e343579100a16f1add140f59ba5898db928b95ead55d66f44c26102"
+    },
+    "full.epub": {
+      "bytes": 492711,
+      "sha256": "09146ac925dee5e25500b96b0e9776b951bb9ce7cbd95371d5e496f07a1c75bb"
+    },
+    "full.md": {
+      "bytes": 468215,
+      "sha256": "3dd6bbf6d89fc11894fa711e984ceb5e50e92a56cabd297af1bc57a147be0d53"
+    },
+    "full.pdf": {
+      "bytes": 1713422,
+      "sha256": "bdd97f5480ff9b388fc66e030c661c7020256fa874358f75b3be8c6d0f639fe9"
+    }
+  }
+}

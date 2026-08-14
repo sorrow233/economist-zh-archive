@@ -2,6 +2,12 @@
   "repository": "economist-zh-archive",
   "issues": [
     {
+      "issue_date": "2026-08-14",
+      "translation_model": "Gemini 3.6 Flash",
+      "full_articles": 74,
+      "digest_articles": 74
+    },
+    {
       "issue_date": "2026-08-07",
       "translation_model": "DeepSeek V4 Flash (NVIDIA NIM) + Gemini 3.6 Flash",
       "full_articles": 69,
@@ -44,5 +50,5 @@
       "digest_articles": 73
     }
   ],
-  "updated_at": "2026-08-07"
+  "updated_at": "2026-08-14"
 }
