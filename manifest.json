@@ -2,6 +2,12 @@
   "repository": "economist-zh-archive",
   "issues": [
     {
+      "issue_date": "2026-09-04",
+      "translation_model": "Gemini 3.6 Flash",
+      "full_articles": 77,
+      "digest_articles": 77
+    },
+    {
       "issue_date": "2026-08-28",
       "translation_model": "Gemini 3.6 Flash",
       "full_articles": 70,
@@ -62,5 +68,5 @@
       "digest_articles": 73
     }
   ],
-  "updated_at": "2026-08-28"
+  "updated_at": "2026-09-04"
 }

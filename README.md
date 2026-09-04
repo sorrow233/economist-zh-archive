@@ -16,6 +16,7 @@
 
 | 日期 | 翻译模型 | 完整版 | 简版 |
 | --- | --- | --- | --- |
+| 2026-09-04 | Gemini 3.6 Flash | [MD](issues/2026-09-04/full.md) · [EPUB](issues/2026-09-04/full.epub) · [PDF](issues/2026-09-04/full.pdf) | [MD](issues/2026-09-04/digest.md) · [EPUB](issues/2026-09-04/digest.epub) · [PDF](issues/2026-09-04/digest.pdf) |
 | 2026-08-28 | Gemini 3.6 Flash | [MD](issues/2026-08-28/full.md) · [EPUB](issues/2026-08-28/full.epub) · [PDF](issues/2026-08-28/full.pdf) | [MD](issues/2026-08-28/digest.md) · [EPUB](issues/2026-08-28/digest.epub) · [PDF](issues/2026-08-28/digest.pdf) |
 | 2026-08-21 | Gemini 3.6 Flash | [MD](issues/2026-08-21/full.md) · [EPUB](issues/2026-08-21/full.epub) · [PDF](issues/2026-08-21/full.pdf) | [MD](issues/2026-08-21/digest.md) · [EPUB](issues/2026-08-21/digest.epub) · [PDF](issues/2026-08-21/digest.pdf) |
 | 2026-08-14 | Gemini 3.6 Flash | [MD](issues/2026-08-14/full.md) · [EPUB](issues/2026-08-14/full.epub) · [PDF](issues/2026-08-14/full.pdf) | [MD](issues/2026-08-14/digest.md) · [EPUB](issues/2026-08-14/digest.epub) · [PDF](issues/2026-08-14/digest.pdf) |
